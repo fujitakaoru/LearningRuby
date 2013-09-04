@@ -5,11 +5,9 @@ inches = gets.chomp()
 print "How much do you weigh (in pounds)? "
 pounds = gets.to_i
 kilo_conversion = 0.54 
-print "Are you male (m) or female (f)?"
+print "Are you male (m) or female (f) ?"
 gender = gets.chomp()
 
-puts "So you are #{gender}"
-
-#puts "So, you're %d years old, %d tall, and %d pounds, and %d kilos." % [
-  #age, inches, pounds, pounds * kilo_conversion] 
+puts "So, you're a #{gender}, %d years old, %d tall, and %d pounds, and %d kilos." % [
+  age, inches, pounds, pounds * kilo_conversion] 
   
