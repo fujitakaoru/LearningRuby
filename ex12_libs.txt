@@ -1,0 +1,16 @@
+1. The difference between 'require' and 'include'
+
+'require' -- (for using)
+-runs another file
+-if refered to multiple times, second time the comand is 'load'
+
+'include' -- (for incorporating)
+-adds modules from another, into the current one
+
+2.
+
+No idea -- to be determined.
+
+3. 
+
+/Users/*****/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0"
