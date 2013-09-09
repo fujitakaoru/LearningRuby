@@ -10,7 +10,7 @@ user = ARGV.first
 prompt = '> '
 
 
-puts "Hi, #{user}! I'm the #{$0} script."
+puts "Hi #{user}, I'm the #{$0} script."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user}? "
 print prompt
@@ -24,8 +24,8 @@ puts "What kind of computer do you have, #{user}? "
 print prompt
 computer = STDIN.gets.chomp()
 
-#puts << PARAGRAPH
-#Alright so you said you #{likes} about liking me.
-#You live at #{lives}.  Sounds like a nice place!
-#And you have a #{computer}.  Sick.
-#PARAGRAPH 
+puts <<MESSAGE
+Alright so you said you #{likes} about liking me. 
+You live at #{lives}.  Sounds like a nice place!
+And you have a #{computer}.  Sick.
+MESSAGE
