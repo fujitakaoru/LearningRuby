@@ -24,3 +24,5 @@ txt_again = File.open(file_again)
 puts txt_again.read()
 # extra space for easier reading
 puts
+#closes files
+txt_again = File.close(file_again)
